@@ -9,9 +9,9 @@ const isMonsoon = true;
 
 function checkAndLogMessage(variable, name) {
   if (Array.isArray(variable)) {
-    console.log(`The vaiable ${name} is an array.`);
+    console.log(`The variable ${name} is an array.`);
   } else {
-    console.log(`The vaiable ${name} is NOT! an array.`);
+    console.log(`The variable ${name} is NOT! an array.`);
   }
 }
 
